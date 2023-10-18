@@ -1,7 +1,22 @@
+:root {
+  --color-brand-light: #819b57;
+  --color-brand-dark: #465929;
+  --color-primery-light: #faf4ea;
+  --color-primery-dark: #31261a;
+}
+
+/* base */
+body {
+  color: var(--color-primery-dark);
+}
+ul {
+  list-style-type: none;
+}
+/* button */
 .button {
-  color: #faf4ea;
-  background-color: #819b57;
-  border: 2px solid #819b57;
+  color: var(--color-primery-light);
+  background-color: var(--color-brand-light);
+  border: 2px solid var(--color-brand-light);
   border-radius: 8px;
   cursor: pointer;
 }
@@ -9,4 +24,35 @@
 .button:hover {
   color: var(--bakery-landing-13, #465929);
   background-color: transparent;
+}
+
+/* Link */
+.link {
+  color: var(--color-primery-light);
+}
+
+.link:hover {
+  color: var(--color-brand-light);
+}
+
+/* hero */
+.hero-title {
+  color: var(--color-primery-light);
+}
+
+.hero-title .accent {
+  color: var(--color-brand-light);
+}
+/* adventeges */
+.adventeges-list {
+  color: var(--color-primery-light);
+  background-color: var(--color-brand-light);
+}
+/* section */
+.section-title {
+  color: var(--color-primery-dark);
+}
+
+.section-title .accen2 {
+  color: var(--color-brand-dark);
 }
