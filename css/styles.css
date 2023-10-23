@@ -1,3 +1,35 @@
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/poppins-v20-latin-300.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v20-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins-v20-latin-600.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/poppins-v20-latin-900.woff2") format("woff2");
+}
+
 :root {
   --color-brand-light: #819b57;
   --color-brand-dark: #465929;
@@ -12,6 +44,9 @@ body {
   font-size: 1.125rem;
   font-weight: 400;
   line-height: normal;
+}
+address {
+  font-style: normal;
 }
 ul {
   list-style-type: none;
@@ -110,4 +145,21 @@ ul {
 /* contacts section */
 .contact-text {
   color: var(--color-brand-dark);
+}
+
+/* footer */
+.address-link {
+  color: var(--color-primery-light);
+  font-size: 1rem;
+  font-weight: 300;
+  text-decoration: none;
+}
+.address-link:hover {
+  color: var(--color-brand-light);
+}
+
+.address-copyright {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #a18268;
 }
