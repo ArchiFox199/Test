@@ -245,9 +245,16 @@ ul {
 
 .chefs-list {
   display: flex;
+  gap: 30px;
 }
 
 .chefs-item {
+  flex-basis: 100%;
+}
+
+.chef-card {
+  display: flex;
+  gap: 30px;
 }
 
 .chef-title {
