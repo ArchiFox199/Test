@@ -511,8 +511,10 @@ ul {
   max-width: 880px;
   height: 100%;
   max-height: 880px;
+  padding: 128px;
   background-color: var(--color-primery-light);
   border-radius: 32px;
+  overflow-y: auto;
 }
 
 .modal-btn-close {
@@ -520,4 +522,54 @@ ul {
   position: absolute;
   top: 40px;
   right: 40px;
+}
+
+/* form */
+.form-field {
+  margin-bottom: 32px;
+}
+
+.form-label {
+  display: block;
+}
+
+.form-input {
+  border-radius: 8px;
+  border: 1px solid var(--color-backgraund-dark);
+  font-size: 16px;
+  line-height: normal;
+  padding: 16px 42px;
+  width: 100%;
+  background-color: transparent;
+}
+
+.form-input:focus {
+  border-color: var(--color-brand-light);
+  outline: none;
+}
+
+.form-input::placeholder {
+  color: var(--color-backgraund-dark);
+  font-size: 16px;
+  line-height: normal;
+}
+
+.form-input:focus::placeholder {
+  color: var(--color-primery-dark);
+}
+.form-button {
+  margin: 0 auto 24px;
+  display: block;
+}
+.form-terms {
+  margin: 0 auto;
+  max-width: 220px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+}
+.form-terms-link {
+  color: var(--color-primery-dark);
+  text-underline-offset: 2px;
 }
